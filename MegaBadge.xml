@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\choco\Documents\BSides\Badge2019\MegaBadge.sch</source>
+    <date>2/25/2019 10:53:56 PM</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MegaBadge.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>CONTROLLER-ATMEGA16U2-MU_QFN32_</value>
+      <footprint>OPL_Integrated_Circuit:QFN32G-0.5-5X5MM</footprint>
+      <fields>
+        <field name="SKU">310010018</field>
+      </fields>
+      <libsource lib="OPL_Integrated_Circuit" part="CONTROLLER-ATMEGA16U2-MU_QFN32_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68D656</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>SMD-RESONATOR-16MHZ-15PF-0.5%-40R_3P-3.2X1.3MM_</value>
+      <footprint>OPL_Crystal_Oscillator:X3-SMD-3.6X1.3X0.8MM</footprint>
+      <fields>
+        <field name="MPN">CSTCE16M0V53-R0</field>
+        <field name="SKU">306030002</field>
+      </fields>
+      <libsource lib="OPL_Crystal_Oscillator" part="SMD-RESONATOR-16MHZ-15PF-0.5%-40R_3P-3.2X1.3MM_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68DD5D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>SMD-RES-1M-5%-1_10W_0603_</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-071ML</field>
+        <field name="SKU">301010100</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-1M-5%-1_10W_0603_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68DDDE</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>MICRO-USB-SMD_ZX62-B-5PA_</value>
+      <footprint>OPL_Connector:MICRO-USB5+6P-SMD-0.65-AB</footprint>
+      <fields>
+        <field name="MPN">ZX62-B-5PA</field>
+        <field name="SKU">320010005</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="MICRO-USB-SMD_ZX62-B-5PA_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68E06D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>SMD-RES-22R-5%-1_10W_0603_</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0722RL</field>
+        <field name="SKU">301010289</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-22R-5%-1_10W_0603_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68E170</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>SMD-RES-22R-5%-1_10W_0603_</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0722RL</field>
+        <field name="SKU">301010289</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-22R-5%-1_10W_0603_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68E1B2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CERAMIC-100NF-50V-10%-X7R_0603_</value>
+      <footprint>OPL_Capacitor:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="OPL_Capacitor" part="CERAMIC-100NF-50V-10%-X7R_0603_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68E6DD</tstamp>
+    </comp>
+    <comp ref="1uf1">
+      <value>C</value>
+      <footprint>OPL_Capacitor:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C68E72A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>PMIC-CJ78M05_TO-252_</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2_Rectifier</footprint>
+      <fields>
+        <field name="MPN">CJ78M05</field>
+        <field name="SKU">310030100</field>
+      </fields>
+      <libsource lib="OPL_Integrated_Circuit" part="PMIC-CJ78M05_TO-252_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6A1377</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>AVR-ISP-6</value>
+      <footprint>OPL_Connector:H2X3-2.54</footprint>
+      <libsource lib="atmel" part="AVR-ISP-6" description="Standard IDC6 Male Connector, ATMEL ISP 6pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74873F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>SMD-RES-10K-5%-1_10W_0603_</value>
+      <footprint>OPL_Resistor:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-10K-5%-1_10W_0603_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C755C5B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Capacitor" part="CERAMIC-100NF-50V-10%-X7R_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-100NF-50V-10%-X7R_0603_</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">302010138</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Connector" part="MICRO-USB-SMD_ZX62-B-5PA_">
+      <footprints>
+        <fp>*MICRO-USB5+6P-SMD-0.65-AB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">MICRO-USB-SMD_ZX62-B-5PA_</field>
+        <field name="MPN">ZX62-B-5PA</field>
+        <field name="SKU">320010005</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="SHIELD" type="power_out"/>
+        <pin num="7" name="SHIELD" type="power_out"/>
+        <pin num="8" name="SHIELD" type="power_out"/>
+        <pin num="9" name="SHIELD" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Crystal_Oscillator" part="SMD-RESONATOR-16MHZ-15PF-0.5%-40R_3P-3.2X1.3MM_">
+      <footprints>
+        <fp>*X3-SMD-3.6X1.3X0.8MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">SMD-RESONATOR-16MHZ-15PF-0.5%-40R_3P-3.2X1.3MM_</field>
+        <field name="MPN">CSTCE16M0V53-R0</field>
+        <field name="SKU">306030002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Integrated_Circuit" part="CONTROLLER-ATMEGA16U2-MU_QFN32_">
+      <footprints>
+        <fp>*QFN32G-0.5-5X5MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONTROLLER-ATMEGA16U2-MU_QFN32_</field>
+        <field name="SKU">310010018</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XTAL1" type="BiDi"/>
+        <pin num="2" name="XTAL2(PC0)" type="BiDi"/>
+        <pin num="3" name="GND" type="BiDi"/>
+        <pin num="4" name="VCC" type="BiDi"/>
+        <pin num="5" name="(PCINT11/AIN2)PC2" type="BiDi"/>
+        <pin num="6" name="(OC0B/INT0)PD0" type="BiDi"/>
+        <pin num="7" name="(AIN0/INT1)PD1" type="BiDi"/>
+        <pin num="8" name="(RXD1/AIN1/INT2)PD2" type="BiDi"/>
+        <pin num="9" name="(TXD1/INT3)PD3" type="BiDi"/>
+        <pin num="10" name="(INT5/AIN3)PD4" type="BiDi"/>
+        <pin num="11" name="(XCK/AIN4/PCINT12)PD5" type="BiDi"/>
+        <pin num="12" name="(~RTS~/AIN5/INT6)PD6" type="BiDi"/>
+        <pin num="13" name="(~CTS~/~HWB~/AIN6/T0/INT7)PD7" type="BiDi"/>
+        <pin num="14" name="(~SS~/PCINT0)PB0" type="BiDi"/>
+        <pin num="15" name="(SCLK/PCINT1)PB1" type="BiDi"/>
+        <pin num="16" name="(PDI/MOSI/PCINT2)PB2" type="BiDi"/>
+        <pin num="17" name="(PDO/MISO/PCINT30)PB3" type="BiDi"/>
+        <pin num="18" name="(T1/PCINT4)PB4" type="BiDi"/>
+        <pin num="19" name="(PCINT5)PB5" type="BiDi"/>
+        <pin num="20" name="(PCINT6)PB6" type="BiDi"/>
+        <pin num="21" name="(PCINT7/OC.0A/OC.1C)PB7" type="BiDi"/>
+        <pin num="22" name="(INT4/ICP1/CLKO)PC7" type="BiDi"/>
+        <pin num="23" name="(OC.1A/PCINT8)PC6" type="BiDi"/>
+        <pin num="24" name="~RESET~(PC1/DW)" type="BiDi"/>
+        <pin num="25" name="(PCINT9/OC1B)PC5" type="BiDi"/>
+        <pin num="26" name="(PCINT10)PC4" type="BiDi"/>
+        <pin num="27" name="UCAP" type="BiDi"/>
+        <pin num="28" name="UGND" type="BiDi"/>
+        <pin num="29" name="D+" type="BiDi"/>
+        <pin num="30" name="D-" type="BiDi"/>
+        <pin num="31" name="UVCC" type="BiDi"/>
+        <pin num="32" name="AVCC" type="BiDi"/>
+        <pin num="33" name="PAD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Integrated_Circuit" part="PMIC-CJ78M05_TO-252_">
+      <footprints>
+        <fp>*TO-252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PMIC-CJ78M05_TO-252_</field>
+        <field name="MPN">CJ78M05</field>
+        <field name="SKU">310030100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="OUT" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Resistor" part="SMD-RES-10K-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-10K-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-0710KL</field>
+        <field name="SKU">301010293</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Resistor" part="SMD-RES-1M-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-1M-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-071ML</field>
+        <field name="SKU">301010100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Resistor" part="SMD-RES-22R-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-22R-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-0722RL</field>
+        <field name="SKU">301010289</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="AVR-ISP-6">
+      <description>Standard IDC6 Male Connector, ATMEL ISP 6pin</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">AVR-ISP-6</field>
+        <field name="Footprint">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="OPL_Capacitor">
+      <uri>C:/Users/choco/Documents/KiCad/OPL_Kicad_Library-master/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Capacitor.lib</uri>
+    </library>
+    <library logical="OPL_Connector">
+      <uri>C:/Users/choco/Documents/KiCad/OPL_Kicad_Library-master/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Connector.lib</uri>
+    </library>
+    <library logical="OPL_Crystal_Oscillator">
+      <uri>C:/Users/choco/Documents/KiCad/OPL_Kicad_Library-master/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Crystal_Oscillator.lib</uri>
+    </library>
+    <library logical="OPL_Integrated_Circuit">
+      <uri>C:/Users/choco/Documents/KiCad/OPL_Kicad_Library-master/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Integrated_Circuit.lib</uri>
+    </library>
+    <library logical="OPL_Resistor">
+      <uri>C:/Users/choco/Documents/KiCad/OPL_Kicad_Library-master/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Resistor.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\library/atmel.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="USB1" pin="9"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U1" pin="28"/>
+      <node ref="U1" pin="33"/>
+      <node ref="U1" pin="3"/>
+      <node ref="USB1" pin="8"/>
+      <node ref="CON1" pin="6"/>
+      <node ref="USB1" pin="7"/>
+      <node ref="USB1" pin="6"/>
+      <node ref="USB1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="1uf1" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(1uf1-Pad1)">
+      <node ref="1uf1" pin="1"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="3" name="VUSB_IN">
+      <node ref="USB1" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="6" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="29"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="7" name="/MISO">
+      <node ref="U1" pin="17"/>
+      <node ref="CON1" pin="1"/>
+    </net>
+    <net code="8" name="/MOSI">
+      <node ref="CON1" pin="4"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="9" name="VCC">
+      <node ref="U1" pin="32"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="CON1" pin="2"/>
+    </net>
+    <net code="10" name="/SCK">
+      <node ref="U1" pin="15"/>
+      <node ref="CON1" pin="3"/>
+    </net>
+    <net code="11" name="/RST">
+      <node ref="U1" pin="24"/>
+      <node ref="CON1" pin="5"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="15" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="33" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="USB1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="USB1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(USB1-Pad4)">
+      <node ref="USB1" pin="4"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,55 @@
+.HEA
+.TIM 2/17/2019 12:37:39 AM
+.APP "Eeschema 4.0.7"
+
+.ADD_COM     U1     "CONTROLLER-ATMEGA16U2-MU_QFN32_"
+.ADD_COM     Y1     "SMD-RESONATOR-16MHZ-15PF-0.5%-40R_3P-3.2X1.3MM_"
+.ADD_COM     R3     "SMD-RES-1M-5%-1_10W_0603_"
+.ADD_COM     USB1     "MICRO-USB-SMD_ZX62-B-5PA_"
+.ADD_COM     R1     "SMD-RES-22R-5%-1_10W_0603_"
+.ADD_COM     R2     "SMD-RES-22R-5%-1_10W_0603_"
+.ADD_COM     C1     "CERAMIC-100NF-50V-10%-X7R_0603_"
+.ADD_COM     1uf1     "C"
+
+
+.ADD_TER   R2   1     "Net-(R2-Pad1)"
+.TER       USB1   3
+
+.ADD_TER   USB1   9     "GND"
+.TER       U1   33
+            USB1   8
+            USB1   7
+            Y1   2
+            USB1   6
+            1uf1   2
+            C1   2
+            USB1   5
+            U1   3
+            USB1   P1
+            USB1   P2
+
+.ADD_TER   USB1   2     "Net-(R1-Pad1)"
+.TER       R1   1
+
+.ADD_TER   U1   29     "Net-(R2-Pad2)"
+.TER       R2   2
+
+.ADD_TER   1uf1   1     "Net-(1uf1-Pad1)"
+.TER       U1   27
+
+.ADD_TER   U1   30     "Net-(R1-Pad2)"
+.TER       R1   2
+
+.ADD_TER   U1   4     "VCC"
+.TER       U1   32
+            C1   1
+
+.ADD_TER   Y1   1     "Net-(R3-Pad2)"
+.TER       R3   2
+            U1   2
+
+.ADD_TER   R3   1     "Net-(R3-Pad1)"
+.TER       U1   1
+            Y1   3
+
+.END

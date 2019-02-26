@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Miscelaneos)(type KiCad)(uri C:/Users/choco/Documents/KiCad/Miscelaneos)(options "")(descr ""))
+  (lib (name Images)(type KiCad)(uri "$(KIPRJMOD)/Images")(options "")(descr ""))
+  (lib (name OwlImages)(type KiCad)(uri ${KIPRJMOD}/Images/OwlImages)(options "")(descr ""))
+  (lib (name BsidesLogos)(type KiCad)(uri C:/Users/choco/Documents/BSides/BsidesLogos)(options "")(descr ""))
+)
